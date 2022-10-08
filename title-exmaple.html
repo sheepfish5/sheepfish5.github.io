@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uft-8">
+  <head>
+    <meta charset="uft-8">
+    <meta name="author" constent="sheepfish">
+    <meta name="description" constent="just for learning">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="解密.png" type="image/x-icon">
+    <title>&lt;title&gt; element</title>
+  </head>
+  <body>
+
+    <p>在本页底部可以找到<a href="#Mailing_address">我们的联系方式</a>。</p>
+
+    <h1>&lt;h1&gt; element</h1>
+    <p>Japanese example: ご飯が熱い。</p>
+
+    <a href="https://www.mozilla.org/zh-CN/">
+      <img src="favicon.ico" alt="链接至Mozilla主页的Mozilla标志">
+    </a>
+
+    <h2 id="Mailing_address">邮件地址</h2>
+    <p>新建一个<a href="mailto:">电子邮件</a></p>
+
+    <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+      Send mail with cc, bcc, subject and body
+    </a>
+    
+    <h2>块引用</h2>
+    <blockquote cite="https://www.baidu.com">
+      <p>在过去，百度是中国最大的互联网公司，它的许多产品为国人带来了便利，即使它的<br>
+         广告引发了很大的争议。到了现在，百度明显比阿里腾讯慢许多，给人的感觉是一个<br>
+         行动缓慢的巨型动物，而且，许多新兴公司都快要超过它了。</p>
+    </blockquote>
+
+    <hr>
+
+    <h2>行内引用</h2>
+    <p>对于百度，只能说是<a href="https://baike.baidu.com/唐代"><cite>沉舟侧畔千帆过</cite></a>了。</p>
+
+    <h2>上标和下标</h2>
+    <p>苯的化学式是C<sub>6</sub>O<sub>6</sub>H<sub>6</sub></p>
+    
+    <h2>计算机代码</h2>
+    <pre><code>const <var>para</var> = document.querySelector("p");
+
+para.onclick = function(){
+alert("噢，噢，噢，别点我了。");
+}</code></pre>
+    <pre>$ <kbd>ping mozilla.org</kbd>
+<samp>正在 Ping mozilla.org [44.236.48.31] 具有 32 字节的数据:
+请求超时。
+请求超时。</samp></pre>
+
+    <h2>标记时间和日期</h2>
+    <time datatime="2022-10-4">2022年10月4号星期二</time>
+
+
+    <div class="shopping-cart">
+      <h2>购物车</h2>
+      <ul>
+        <li>
+          <p><a href=""><strong>银耳环</strong></a>：$99.95.</p>
+          <img src="favicon.ico" alt="Silver earrings">
+        </li>
+        <li>
+          ...
+        </li>
+      </ul>
+      <p>售价：$237.89</p>
+    </div>
+    
+
+    <address>
+      <p>Written by <a href="mailto:yuyangbusiness@foxmail.com?cc=yy1765824396@outlook.com&bcc=1420404211@qq.com&subject=Nice%20to%20meet%20you!">sheepfish</a></p>
+    </address>
+  </body>
+</html>
